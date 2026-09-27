@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    margin: 0;
+}
+
+body > h1 {
+    text-align: center;
+    color: white;
+    background-color: darkblue;
+    margin: 0;
+    padding: 15px;
+}
+
+body > h2 {
+    text-align: center;
+    color: white;
+    background-color: darkblue;
+    margin: 0;
+    padding: 10px;
+}
+
+body > a {
+    display: inline-block;
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+#introduction {
+    background-color: white;
+    color: darkblue;
+    margin: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+body > p {
+    text-align: justify;
+    margin: 20px;
+}
+
+body > img {
+    display: block;
+    width: 300px;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+body > p:last-of-type {
+    text-align: center;
+}
+
+#experience {
+    background-color: white;
+    color: darkblue;
+    margin: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#experience + ol {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#experience + ol li:nth-child(odd) {
+    font-weight: lighter;
+}
+
+#experience + ol li:nth-child(even) {
+    font-weight: bold;
+}
+
+#skills {
+    background-color: white;
+    color: darkblue;
+    margin: 20px;
+    padding: 10px;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+#project {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#project + ul {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#project + ul li {
+    padding: 8px;
+}
+
+iframe {
+    display: block;
+    width: 600px;
+    height: 350px;
+    margin: 30px auto;
+}
+
+form {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+input, select {
+    padding: 8px;
+    margin: 8px;
+}
+
+input[type="submit"] {
+    background-color: darkblue;
+    color: white;
+}
+
+#introduction {
+    text-align: left;
+}
